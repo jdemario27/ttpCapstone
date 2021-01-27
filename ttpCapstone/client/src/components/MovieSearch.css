@@ -1,0 +1,15 @@
+form {
+    text-align: center
+}
+
+.searchDiv {
+    font-size: x-large;
+    font-family: Tahoma;
+    font-weight: 900;
+    color: fuchsia;
+}
+
+.searchedImages {
+    padding: 2px;
+    margin-right: 5px;
+}
