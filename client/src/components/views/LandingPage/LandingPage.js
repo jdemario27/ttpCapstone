@@ -3,6 +3,15 @@ import { Typography, Row, Button } from 'antd';
 import { API_URL, API_KEY, IMAGE_BASE_URL, IMAGE_SIZE, POSTER_SIZE } from '../../Config'
 import MainImage from './Sections/MainImage'
 import GridCard from '../../commons/GridCards'
+import styled from 'styled-components'
+
+
+const BodyWrapper = styled.body`
+background-color: black
+`
+
+
+
 const { Title } = Typography;
 function LandingPage() {
     const buttonRef = useRef(null);
@@ -63,6 +72,9 @@ function LandingPage() {
     }
 
     return (
+        
+
+        <BodyWrapper>
         <div style={{ width: '100%', margin: '0' }}>
             {MainMovieImage &&
                 <MainImage
@@ -101,6 +113,7 @@ function LandingPage() {
             </div>
 
         </div>
+        </BodyWrapper>
     )
 }
 

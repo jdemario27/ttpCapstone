@@ -6,9 +6,9 @@ function Footer() {
         <div style={{
             height: '80px', display: 'flex',
             flexDirection: 'column', alignItems: 'center',
-            justifyContent: 'center', fontSize:'1rem'
+            justifyContent: 'center', fontSize:'1rem', fontFamily: 'Comic-Sans'
         }}>
-           <p> Happy Coding  <Icon type="smile" /></p>
+           <p> HAPPY MOVIE WATCHING  <img src="https://static.thenounproject.com/png/1319743-200.png" height="30" width="35"/></p>
         </div>
     )
 }
