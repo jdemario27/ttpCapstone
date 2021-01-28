@@ -1,3 +1,4 @@
+//registerPage.js
 import React from "react";
 import moment from "moment";
 import { Formik } from 'formik';
