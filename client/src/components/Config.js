@@ -1,4 +1,4 @@
-//SERVER ROUTES
+//SERVER ROUTES (config.js)
 export const USER_SERVER = '/api/users';
 
 
