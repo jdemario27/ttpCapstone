@@ -1,3 +1,4 @@
+//user_reducer.js
 import {
     LOGIN_USER,
     REGISTER_USER,
